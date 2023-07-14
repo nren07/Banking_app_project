@@ -34,5 +34,9 @@ public class Main {
         System.out.println("Money enter you want to withdraw and password ");
         money  =sc.nextInt();
         System.out.println(bank.withdrawMoney(money,password));
+
+        System.out.println("Enter time period in years to know your interest");
+        int time=sc.nextInt();
+        System.out.println(bank.totalInterest(time));
     }
 }
